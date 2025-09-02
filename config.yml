@@ -1,5 +1,5 @@
 baseURL: "https://emiliendilly.github.io" 
-title: Moritz-Maria von Igelfeld
+title: Émilien Dilly
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -12,25 +12,18 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
-          weight: 5 
+        - name: News
+          url: courses/
         - name: Papers
           url: papers/
-          weight: 2
-        - name: Courses
-          url: courses/
-          weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
+        - name: Projects
+          url: projects/
+        - name: Talks
+          url: talks/
 
 params:
     description: "This website hosts Emilien Dilly work presentation."
-    author: Moritz-Maria von Igelfeld
+    author: Émilien Dilly
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
@@ -55,49 +48,37 @@ params:
     profileMode:
           enabled: true
           title: Émilien Dilly
-          subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
+          subtitle: "Post-doc at Laboratoire Interdisciplinaire de Physique at Université Grenoble Alpes."
           imageUrl: "picture.jpeg"
           imageWidth: 160
           imageHeight: 160
           buttons:
+            - name: News
+              url: courses/
             - name: Papers
               url: papers/
-            - name: Data
-              url: data/
-            - name: Books
-              url: books/
-            - name: Courses
-              url: courses/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+            - name: Projects
+              url: projects/
+            - name: Talks
+              url: talks/
+
+
+
 
     socialIcons:
         - name: CV
           url: cv.pdf
         - name: Email
-          url: mailto:igelfeld@regensburg.edu
-        - name: Zoom
-          url: https://www.zoom.us/my/igelfeld
+          url: mailto:emilien.dilly@univ-grenoble-alpes.fr
         - name: Location
           url: location/
-        - name: Office Hours
-          url: officehours/
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
+          url: https://scholar.google.com/citations?user=B3NCJ8kAAAAJ&hl=fr
         - name: GitHub
-          url: https://github.com/pmichaillat
-        - name: Substack
-          url: https://pmichaillat.substack.com
-        - name: YouTube
-          url: https://www.youtube.com/@pmichaillat
-        - name: Twitter
-          url: https://x.com/pmichaillat
-        - name: Bluesky
-          url: https://bsky.app/profile/pmichaillat.bsky.social
+          url: https://github.com/emiliendilly
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/émilien-dilly-5b2a80196
+
 
     assets:
         disableScrollBarStyle: true
@@ -105,7 +86,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
+      text: "Émilien Dilly"
       icon: favicon.ico
       iconHeight: 18
 

@@ -1,61 +1,59 @@
 ---
-title: "Unusual Uses For Olive Oil" 
-date: 2013-01-15
-tags: ["philology","oleic science","history of oil","Mediterranean world"]
-author: ["Detlev Amadeus Unterholzer","Moritz-Maria von Igelfeld"]
-description: "This paper reviews unusual uses for olive oil throughout the Mediterranean world. Published in the Journal of Oleic Science, 2013." 
-summary: "This paper reviews unusual uses for olive oil throughout the Mediterranean world. It highlights in particular the challengs arising from excessive or unorthodox consumption of olive oil." 
+title: "Traveling perversion as constant torque actuator." 
+date: 2023-10-23
+tags: ["helix","kirchhoff","nonlinear","rods","perversions","biphasic"]
+author: ["Dilly, Émilien","Neukirch, Sébastien","Derr, Julien ","Zanchi, D. "]
+description: "Upon unwinding a helical rod, a critical point is reached at which a helix of opposite chirality appears at one end, connected to the original helix by a perversion — a well-known phenomenon observed in plants. With further rotation, the perversion migrates along the rod. Mechanical characterization of this migration shows that the axial torque exerted by the helix during the experiment remains nearly constant, exhibiting a behavior analogous to the Maxwell plateau in phase transitions. This perversion can thus function as a constant-torque actuator, with promising potential applications in soft robotics. " 
+summary: "Upon unwinding a helical rod, a critical point is reached at which a helix of opposite chirality appears at one end, connected to the original helix by a perversion — a well-known phenomenon observed in plants. With further rotation, the perversion migrates along the rod. Mechanical characterization of this migration shows that the axial torque exerted by the helix during the experiment remains nearly constant, exhibiting a behavior analogous to the Maxwell plateau in phase transitions. This perversion can thus function as a constant-torque actuator, with promising potential applications in soft robotics. " 
 cover:
     image: "paper1.png"
-    alt: "Some Uses For Olive Oil"
+    alt: "Traveling perversion as constant torque actuator"
     relative: true
 editPost:
-    URL: "https://github.com/pmichaillat/hugo-website"
-    Text: "Journal of Oleic Science"
+    URL: "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.131.177201"
+    Text: "Physical Review Letters"
 
 ---
 
 ---
 
-##### Download
-
-+ [Paper](paper1.pdf)
-+ [Online appendix](appendix1.pdf)
-+ [Code and data](https://github.com/pmichaillat/feru)
-
----
-
-##### Abstract
-
-This paper reviews unusual uses for olive oil throughout the Mediterranean world. It highlights in particular the challengs arising from excessive or unorthodox consumption of olive oil. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
----
-
-##### Figure 6: Some Uses For Olive Oil
+##### Figure : Helix unwinding
 
 ![](paper1.png)
 
 ---
 
+##### Abstract
+
+Mechanical stress and conformation of a helical elastic rod clamped at both ends was studied during the unwinding process. Reducing progressively the winding number from $N_0$ to $-N_0$ by rotation of one clamped end, we followed the conformation of the rod and monitored the torque $M_z$ and the tension $T$ exerted on the clamps, keeping the elongation between clamps constant.
+
+The rod undergoes a complete chirality inversion from $N = N_0$ to $N = -N_0$. The intermediate states are superpositions of two states: one (chirality +) with positive winding number $N_+$ and one (chirality -) with negative winding number $N_-$, keeping $N = N_+ + N_-$. The junction between (+) and (-) is a **perversion**, which migrates along the rod upon changing $N$. 
+
+The process of helix inversion is discussed within a simple model of phase coexistence. The effects of the perversion and of the clamps on the transition are discussed, and minimal theoretical models are proposed.
+
+---
+
+
 ##### Citation
 
-Unterholzer, Detlev A., and  Moritz-Maria von Igelfeld. 2013. "Unusual Uses For Olive Oil." *Journal of Oleic Science* 34 (1): 449–489. http://www.alexandermccallsmith.com/book/unusual-uses-for-olive-oil.
+Dilly, É., Neukirch, S., Derr, J., & Zanchi, D. (2023). Traveling perversion as constant torque actuator. Physical Review Letters, 131(17), 177201. https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.131.177201.
 
 ```BibTeX
-@article{UI13,
-author = {Detlev A. Unterholzer and Moritz-Maria von Igelfeld},
-year = {2013},
-title ={Unusual Uses For Olive Oil},
-journal = {Journal of Oleic Science},
-volume = {34},
-number = {1},
-pages = {449--489},
-url = {http://www.alexandermccallsmith.com/book/unusual-uses-for-olive-oil}}
+@article{PhysRevLett.131.177201,
+  title = {Traveling Perversion as Constant Torque Actuator},
+  author = {Dilly, \'Emilien and Neukirch, S\'ebastien and Derr, Julien and Zanchi, Dra\ifmmode \check{z}\else \v{z}\fi{}en},
+  journal = {Phys. Rev. Lett.},
+  volume = {131},
+  issue = {17},
+  pages = {177201},
+  numpages = {6},
+  year = {2023},
+  month = {Oct},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.131.177201},
+  url = {https://link.aps.org/doi/10.1103/PhysRevLett.131.177201}
+}
 ```
 
 ---
 
-##### Related material
-
-+ [Presentation slides](presentation1.pdf)
-+ [Summary of the paper](https://www.penguinrandomhouse.com/books/110403/unusual-uses-for-olive-oil-by-alexander-mccall-smith/)
