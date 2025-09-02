@@ -4,7 +4,7 @@ This repository contains a [Hugo](https://github.com/gohugoio/hugo) template to 
 
 ## Documentation
 
-The template is documented at https://pascalmichaillat.org/b/. bah ouiet la et la
+The template is documented at https://pascalmichaillat.org/b/. bah ouiet la et laggg
 
 ## Illustration
 
