@@ -18,7 +18,7 @@ The website produced by the template can be viewed at https://pascalmichaillat.o
 + Since the website is hosted on GitHub Pages, it is convenient to install [GitHub Desktop](https://desktop.github.com). The website can be updated from your local machine via GitHub Desktop without going to GitHub.
 + Clone the template repository to your local machine. This can be done in two steps:
 	1. Click "Use this template" and then "Create a new repository" at the top of the repository.
-	2. Once the new repository is created on your GitHub account, open GitHub Desktop and click "File" and then "Clone repository". Find the newly created repository under the "GitHub.com" tab and clone it.
+	2. Once the new repository is created on your GitHub account, open GitHub Desktop and click "File" and then "Clone repository". Find the newly created repository under the "GitHub.cosssm" tab and clone it.
 + Update the `baseURL` parameter in `config.yml` with the website URL that you plan to use. By default the URL is `https://username.github.io`.
 
 ### On your GitHub account
