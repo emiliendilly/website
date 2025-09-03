@@ -29,6 +29,7 @@ params:
     defaultTheme: dark
     hideFooter: false
     disableThemeToggle: true
+    customCSS: ["css/custom.css"]
     ShowShareButtons: false
     ShowReadingTime: false
     disableSpecial1stPost: true

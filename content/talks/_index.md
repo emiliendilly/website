@@ -2,7 +2,7 @@
 title: "Talks"
 description: "Books by Professor Dr von Igelfeld's."
 ---
-
+<link rel="stylesheet" href="/css/custom.css">
 <div style="position: relative; left: -300px; font-size: 50px;">
   Talks
 </div>
