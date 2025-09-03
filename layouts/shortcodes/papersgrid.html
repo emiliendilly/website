@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+<h1>{{ .Title }}</h1>
+
+<div class="papers-grid">
+  {{ $papers := where site.RegularPages "Section" "papers" }}
+  {{ $papers = where $papers "Date" "ne" nil }}
+  {{ $papers = sort $papers "Date" "desc" }}
+
+  {{ range $papers }}
+    <div class="paper-card">
+      {{ with .Params.cover.image }}
+        <img src="{{ . | relURL }}" alt="{{ .Params.cover.alt }}">
+      {{ end }}
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      <p>{{ .Summary }}</p>
+    </div>
+  {{ end }}
+</div>
+
+{{ end }}
