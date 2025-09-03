@@ -81,7 +81,7 @@ params:
 
 
     assets:
-        disableScrollBarStyle: true
+        disableScrollBarStyle: false
     cover:
         hiddenInList: false
         hiddenInSingle: true

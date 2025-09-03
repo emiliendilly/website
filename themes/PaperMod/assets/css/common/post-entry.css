@@ -105,3 +105,25 @@
     color: var(--secondary);
     box-shadow: 0 1px 0 var(--primary);
 }
+
+
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.post-entry, .first-entry {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.post-entry img, .first-entry img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
