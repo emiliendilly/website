@@ -5,14 +5,13 @@
 {{- else }}
 
 {{- if not .IsHome | and .Title }}
-
 {{- end }}
 
 {{- $pages := union .RegularPages .Sections }}
 
 {{- if .IsHome }}
   {{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
-  {{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true"  }}
+  {{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true" }}
 {{- end }}
 
 {{- $paginator := .Paginate $pages }}
@@ -23,28 +22,30 @@
 
 {{- $term := .Data.Term }}
 
+<!-- PAGE TITLE -->
 <div style="position: relative; left: -300px; font-size: 50px;">
   Publications
 </div>
-<div style="padding-top: -0px;">
 
-<div style="position: relative; left: -0px; font-size: 20px;">
-  Selected Pubications  :
+<!-- Selected Publications -->
+<div style="position: relative; left: 0px; font-size: 20px; margin-top: 10px;">
+  Selected Publications:
 </div>
-<div style="padding-top: 20px;">
+<div style="padding-top: 20px;"></div>
 
-
+<!-- GRID START -->
 <div class="papers-grid">
   {{- range $index, $page := $paginator.Pages }}
     <a href="{{ $page.RelPermalink }}" class="paper-card">
       {{- $cover := $page.Resources.GetMatch ($page.Params.cover.image) }}
       {{- if $cover }}
-        <img src="{{ $cover.RelPermalink }}" alt="{{ $page.Params.cover.alt }}" />
+        <img src="{{ $cover.RelPermalink | relURL }}" alt="{{ $page.Params.cover.alt }}" />
       {{- end }}
       <h3>{{ $page.Title }}</h3>
     </a>
   {{- end }}
 </div>
+<!-- GRID END -->
 
 <!-- PAGE CONTENT / INTRO TEXT -->
 {{- if .Content }}
@@ -55,6 +56,7 @@
 </div>
 {{- end }}
 
+<!-- PAGINATION -->
 {{- if gt $paginator.TotalPages 1 }}
 <footer class="page-footer">
   <nav class="pagination">
