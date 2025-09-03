@@ -33,3 +33,8 @@ description: "Books by Professor Dr von Igelfeld's."
 - LIPHY Lab seminar, Université Grenoble Alpes, : 18th November 2024 Perversions in Helical Rods : From Plant-Inspired Rod Mechanics to Curvature Generation in Tendrils .
 
 2025 :
+
+- The 12th European Solid Mechanics Conference, Lyon France. Perversions in Helical Rods and a Plant-Inspired Phase Transition. **Dilly**, Julien Derr, Drazen Zanchi.
+- Marmitte du PIAF, INRAE Clermond Ferrant Seminar. Cucumber tendrilVrithing under external load : where Kirchhoff meets Lockhart. **Dilly**, E., J. Derr, D. Zanchi 
+- Functionnality through non linearity Conference, King's College London. Programming the nonlinear bending response of architected beams. **Dilly**, Siéfert.
+- GDR MePhy, Paris. Programming the nonlinear bending response of architected beams. **Dilly**, Siéfert.
