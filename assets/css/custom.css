@@ -39,3 +39,11 @@
   text-decoration: none;
   color: #007acc;
 }
+
+
+.footer-social-icon {
+    width: 1.2em;   /* same as homepage */
+    height: 1.2em;
+    vertical-align: middle;
+    fill: currentColor; /* so they inherit text color */
+}

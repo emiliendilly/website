@@ -36,3 +36,24 @@
     background-color: #444;
     border-color: #fff; /* remain white on hover */
 }
+
+
+.footer-social-icons {
+    display: inline-flex;
+    gap: 0.5em; /* space between icons */
+    vertical-align: middle;
+}
+
+.footer-social-icons .footer-social-icon {
+    width: 1em;   /* match homepage sizing */
+    height: 1em;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer-social-icon {
+    width: 1.2em;   /* same as homepage */
+    height: 1.2em;
+    vertical-align: middle;
+    fill: currentColor; /* so they inherit text color */
+}
