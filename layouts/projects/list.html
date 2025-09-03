@@ -1,0 +1,77 @@
+{{- define "main" }}
+
+{{- if (and site.Params.profileMode.enabled .IsHome) }}
+  {{- partial "index_profile.html" . }}
+{{- else }}
+
+{{- if not .IsHome | and .Title }}
+{{- end }}
+
+{{- $pages := union .RegularPages .Sections }}
+
+{{- if .IsHome }}
+  {{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
+  {{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true" }}
+{{- end }}
+
+{{- $paginator := .Paginate $pages }}
+
+{{- if and .IsHome site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}
+  {{- partial "home_info.html" . }}
+{{- end }}
+
+{{- $term := .Data.Term }}
+
+<!-- PAGE TITLE -->
+<div style="position: relative; left: -300px; font-size: 50px;">
+  Projects
+</div>
+
+
+<div style="padding-top: 20px;"></div>
+
+<!-- GRID START -->
+<div class="papers-grid">
+  {{- range $index, $page := $paginator.Pages }}
+    <a href="{{ $page.RelPermalink }}" class="paper-card">
+      {{- $cover := $page.Resources.GetMatch ($page.Params.cover.image) }}
+      {{- if $cover }}
+        <img src="{{ $cover.RelPermalink | relURL }}" alt="{{ $page.Params.cover.alt }}" />
+      {{- end }}
+      <h3>{{ $page.Title }}</h3>
+    </a>
+  {{- end }}
+</div>
+<!-- GRID END -->
+
+<!-- PAGE CONTENT / INTRO TEXT -->
+{{- if .Content }}
+<div class="post-content">
+  {{- if not (.Param "disableAnchoredHeadings") }}
+    {{- partial "anchored_headings.html" .Content -}}
+  {{- else }}{{ .Content }}{{ end }}
+</div>
+{{- end }}
+
+<!-- PAGINATION -->
+{{- if gt $paginator.TotalPages 1 }}
+<footer class="page-footer">
+  <nav class="pagination">
+    {{- if $paginator.HasPrev }}
+      <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">
+        «&nbsp;{{ i18n "prev_page" }}
+        {{- if (.Param "ShowPageNums") }}{{- sub $paginator.PageNumber 1 }}/{{ $paginator.TotalPages }}{{- end }}
+      </a>
+    {{- end }}
+    {{- if $paginator.HasNext }}
+      <a class="next" href="{{ $paginator.Next.URL | absURL }}">
+        {{ i18n "next_page" }}&nbsp;
+        {{- if (.Param "ShowPageNums") }}{{- add 1 $paginator.PageNumber }}/{{ $paginator.TotalPages }}{{- end }}
+      </a>
+    {{- end }}
+  </nav>
+</footer>
+{{- end }}
+
+{{- end }}
+{{- end }}
