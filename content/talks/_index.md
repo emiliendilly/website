@@ -7,9 +7,6 @@ description: "Books by Professor Dr von Igelfeld's."
   Talks
 </div>
 
-2018:
-
- - APS March Meeting 2018: Kerdraon, M., **Dilly**, E., Descroix, S., and Jullien, M.-C., Droplet breakup with in situ marangoni-induced elongational flow, vol. 2018, 2018.
 
 2021 :
 
