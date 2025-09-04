@@ -50,7 +50,7 @@ params:
           enabled: true
           title: Émilien Dilly
           subtitle: "Post-doc at Laboratoire Interdisciplinaire de Physique at Université Grenoble Alpes."
-          imageUrl: "picture.jpeg"
+          imageUrl: "picture.webp"
           imageWidth: 160
           imageHeight: 160
           buttons:

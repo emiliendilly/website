@@ -6,7 +6,7 @@ author: ["Dilly, Émilien","Neukirch, Sébastien","Derr, Julien ","Zanchi, D. "]
 description: "Upon unwinding a helical rod, a critical point is reached at which a helix of opposite chirality appears at one end, connected to the original helix by a perversion — a well-known phenomenon observed in plants. With further rotation, the perversion migrates along the rod. Mechanical characterization of this migration shows that the axial torque exerted by the helix during the experiment remains nearly constant, exhibiting a behavior analogous to the Maxwell plateau in phase transitions. This perversion can thus function as a constant-torque actuator, with promising potential applications in soft robotics. " 
 summary: "Upon unwinding a helical rod, a critical point is reached at which a helix of opposite chirality appears at one end, connected to the original helix by a perversion — a well-known phenomenon observed in plants. With further rotation, the perversion migrates along the rod. Mechanical characterization of this migration shows that the axial torque exerted by the helix during the experiment remains nearly constant, exhibiting a behavior analogous to the Maxwell plateau in phase transitions. This perversion can thus function as a constant-torque actuator, with promising potential applications in soft robotics. " 
 cover:
-    image: "paper1.png"
+    image: "paper1.webp"
     alt: "Traveling perversion as constant torque actuator"
     relative: true
 editPost:
@@ -19,7 +19,7 @@ editPost:
 
 ##### Figure : Helix unwinding
 
-![](paper1.png)
+![](paper1.webp)
 
 ---
 

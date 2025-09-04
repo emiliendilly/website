@@ -6,7 +6,7 @@ author: ["Dilly, Émilien","Derr, Julien ","Zanchi, D. "]
 description: "Tendrils are plant organs that generate curvature to create spring-like connections to supports, enabling climbing. This curvature often leads to the formation of helices, primarily arising from differential growth across the tendril’s cross section, acting as a bistrip-like curvature mechanism. The process is studied experimentally under varying boundary conditions, such as applied axial forces, and a model is proposed to explain and predict the different observed behaviors." 
 summary: "Tendrils are plant organs that generate curvature to create spring-like connections to supports, enabling climbing. This curvature often leads to the formation of helices, primarily arising from differential growth across the tendril’s cross section, acting as a bistrip-like curvature mechanism. The process is studied experimentally under varying boundary conditions, such as applied axial forces, and a model is proposed to explain and predict the different observed behaviors." 
 cover:
-    image: "paper3.png"
+    image: "paper3.webp"
     alt: "Writhing of cucumber tendril under fixed force"
     relative: true
 
@@ -17,7 +17,7 @@ cover:
 ##### Writhing of cucumber tendril under fixed force. 
 
 <p style="text-align: center;">
-  <img src="paper3.png" alt="Paper 2" width="400">
+  <img src="paper3.webp" alt="Paper 2" width="400">
 </p>
 
 

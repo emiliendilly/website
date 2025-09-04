@@ -14,7 +14,7 @@ After deriving the governing equations and reducing them to the normal form, we 
 We then describe a benchtop experiment that reproduces the theoretical predictions, including hysteresis loops and bifurcation unfolding.  
 The simplicity of both the analysis and the apparatus makes this an effective teaching tool for courses on dynamical systems and bifurcation theory.   " 
 cover:
-    image: "paper1.png"
+    image: "paper1.webp"
     alt: "Subcritical pendulum"
     relative: true
 editPost:
@@ -26,7 +26,7 @@ editPost:
 ##### Schematic representation of the subcritical pendulum. 
 
 <p style="text-align: center;">
-  <img src="paper1.png" alt="Paper 2" width="400">
+  <img src="paper1.webp" alt="Paper 2" width="400">
 </p>
 
 ---
@@ -43,7 +43,7 @@ The simplicity of both the analysis and the apparatus makes this an effective te
 
 
 <p style="text-align: center;">
-  <img src="paper1_1.png" alt="Paper 2" width="400">
+  <img src="paper1_1.webp" alt="Paper 2" width="400">
 </p>
 
 
