@@ -1,6 +1,10 @@
 .buttons,
 .main .profile {
     display: flex;
+    justify-content: left;
+}
+.main .profile {
+    display: flex;
     justify-content: flex-start; /* already set */
     align-items: flex-start;     /* add this to prevent vertical centering */
     gap: 0;                      /* remove extra gap if any */
