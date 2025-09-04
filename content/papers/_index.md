@@ -12,10 +12,8 @@ description: "Preprints and articles by Émilien Dilly."
 
 <!-- PUBS-GRID -->
 
----
 
 
-List of Pubications :
 
 ---
 

@@ -2,12 +2,15 @@
 title: "News"
 description: "Sup ?"
 ---
-<div style="position: relative; left: -300px; font-size: 50px;">
+<div style="font-size: 50px;">
   News
 </div>
-<div style="position: relative; left: -50px;">
+
+<div style="padding-top: 10px;"></div>
+
+
 Upcoming events :
-</div>
+
 <div style="padding-top: 5px;"></div>
 
 
@@ -15,9 +18,10 @@ Upcoming events :
 <div style="padding-top: 20px;"></div>
 
 ---
-<div style="position: relative; left: -50px;">
+
+
 Past events :
-</div>
+<div style="padding-top: 5px;"></div>
 
 
 - [Talk at the ESMC in Lyon Conference on the chirlity inversion of helices upon unwinding. 08/07/25](https://esmc2025.sciencesconf.org)
