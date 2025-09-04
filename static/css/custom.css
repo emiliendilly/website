@@ -241,7 +241,8 @@
 
 .social-icons-container {
     display: flex;
-    gap: 0.5rem; /* spacing between each icon */
+    gap: 0.5rem;       /* spacing between each icon */
+    margin-left: .8rem;  /* push the icons away from the left/logo */
+    align-items: center; /* vertically align with logo/menu */
 }
-
 
