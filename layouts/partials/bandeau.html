@@ -1,0 +1,75 @@
+<div class="bandeau-container">
+    <button class="bandeau-arrow left" aria-label="Previous">&lt;</button>
+
+    <div class="bandeau-wrapper">
+        <div class="bandeau-items">
+
+            <!-- First pair: Papers -->
+            <div class="bandeau-pair">
+                <div class="bandeau-items-row">
+                    {{ range first 2 (where .Site.RegularPages "Section" "papers") }}
+                    <a class="bandeau-item" href="{{ .Permalink }}">
+                        {{- with .Resources.GetMatch (printf "%s" .Params.cover.image) }}
+                            <img src="{{ .RelPermalink }}" alt="{{ $.Title }}">
+                        {{- else }}
+                            <div class="bandeau-placeholder">No image</div>
+                        {{- end }}
+                        <div class="bandeau-item-title">{{ .Title }}</div>
+                    </a>
+                    {{ end }}
+                </div>
+                <div class="bandeau-section-title">Selected Papers</div>
+            </div>
+
+            <!-- Second pair: Projects -->
+            <div class="bandeau-pair">
+                <div class="bandeau-items-row">
+                    {{ range first 2 (where .Site.RegularPages "Section" "projects") }}
+                    <a class="bandeau-item" href="{{ .Permalink }}">
+                        {{- with .Resources.GetMatch (printf "%s" .Params.cover.image) }}
+                            <img src="{{ .RelPermalink }}" alt="{{ $.Title }}">
+                        {{- else }}
+                            <div class="bandeau-placeholder">No image</div>
+                        {{- end }}
+                        <div class="bandeau-item-title">{{ .Title }}</div>
+                    </a>
+                    {{ end }}
+                </div>
+                <div class="bandeau-section-title">Selected Projects</div>
+            </div>
+
+        </div>
+    </div>
+
+    <button class="bandeau-arrow right" aria-label="Next">&gt;</button>
+</div>
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const itemsContainer = document.querySelector('.bandeau-items');
+    const leftBtn = document.querySelector('.bandeau-arrow.left');
+    const rightBtn = document.querySelector('.bandeau-arrow.right');
+
+    let currentIndex = 0;
+    const totalPairs = document.querySelectorAll('.bandeau-pair').length;
+
+    function updateCarousel() {
+        const offset = -currentIndex * itemsContainer.offsetWidth;
+        itemsContainer.style.transform = `translateX(${offset}px)`;
+    }
+
+    rightBtn.addEventListener('click', () => {
+        currentIndex = Math.min(currentIndex + 1, totalPairs - 1);
+        updateCarousel();
+    });
+
+    leftBtn.addEventListener('click', () => {
+        currentIndex = Math.max(currentIndex - 1, 0);
+        updateCarousel();
+    });
+
+    window.addEventListener('resize', updateCarousel);
+});
+
+</script>

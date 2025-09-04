@@ -4,13 +4,9 @@
     justify-content: left;
 }
 .main .profile {
-    align-items: center;
-    min-height: calc(100vh - var(--footer-height) - (var(--gap) * 2));
-    font-size: var(--homesize);
-    line-height: var(--lineheight);
+    min-height: auto; /* remove full viewport constraint */
     padding: var(--gap);
 }
-
 .profile .profile_inner {
     display: flex;
     flex-direction: column;
@@ -45,3 +41,4 @@
 .button:hover {
     background: var(--lightcolor);
 }
+

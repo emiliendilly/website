@@ -57,3 +57,100 @@
     vertical-align: middle;
     fill: currentColor; /* so they inherit text color */
 }
+
+
+
+
+.bandeau-container {
+    display: flex;
+    align-items: center; /* arrows vertically centered */
+    width: 100%;
+    gap: 10px;
+}
+
+.bandeau-wrapper {
+    overflow: hidden;
+    flex: 1; /* take remaining space between arrows */
+}
+
+.bandeau-items {
+    display: flex;
+    transition: transform 0.4s ease;
+}
+
+.bandeau-pair {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 0 100%; /* each pair takes full width of wrapper */
+}
+
+.bandeau-items-row {
+    display: flex;
+    gap: 10px;
+}
+
+.bandeau-item {
+    flex: 0 0 47%;
+    max-width: 49%;
+    background-color: #222;
+    border: 1px solid #888;
+    border-radius: 6px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bandeau-item img {
+    width: 80%;
+    aspect-ratio: 2 / 1;
+    object-fit: cover;
+    border-radius: 4px;
+    margin: 5px auto;
+}
+
+.bandeau-item-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 5px 0;
+}
+
+.bandeau-section-title {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.bandeau-arrow {
+    background: none;
+    border: 1px solid #888;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.bandeau-arrow:hover {
+    background-color: #444;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* ensures footer stays at bottom */
+}
+
+.main .profile {
+    flex: 1;           /* take remaining space */
+    padding-bottom: 1rem; /* small spacing above footer */
+}
+.bandeau-container {
+    margin-bottom: 0; /* removes huge gap */
+}
+

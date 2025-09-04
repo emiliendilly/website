@@ -1,3 +1,8 @@
+<style>
+.profile { margin-bottom: 0; padding-bottom: 0; }
+.home-bandeau { margin-top: 1rem; }
+.home-bandeau br { display: none; }
+</style>
 <div class="profile">
     {{- with site.Params.profileMode }}
     <div class="profile_inner">
@@ -54,5 +59,10 @@
         </div>
         {{- end }}
     </div>
-    {{- end}}
+    {{- end }}
 </div>
+{{ if .IsHome }}
+    <div class="bandeau-wrapper">
+        {{ partial "bandeau.html" . }}
+    </div>
+{{ end }}
