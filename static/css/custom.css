@@ -59,6 +59,32 @@
 }
 
 
+.home-profile-bandeau {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem; /* adjust as needed */
+}
+
+.profile {
+    margin: 0;
+    padding: 0;
+    min-height: auto;       /* remove any full viewport height constraint */
+}
+
+.profile .profile_inner {
+    gap: 5px;               /* smaller gap */
+    margin: 0;
+    padding: 0;
+}
+
+.profile .buttons {
+    margin-bottom: 0;
+}
+
+.home-bandeau {
+    margin: 0;
+    padding: 0;
+}
 
 
 .bandeau-container {

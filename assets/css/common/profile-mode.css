@@ -1,17 +1,17 @@
 .buttons,
 .main .profile {
     display: flex;
-    justify-content: left;
-}
-.main .profile {
-    min-height: auto; /* remove full viewport constraint */
+    justify-content: flex-start; /* already set */
+    align-items: flex-start;     /* add this to prevent vertical centering */
+    gap: 0;                      /* remove extra gap if any */
+    min-height: auto;            /* ensures it doesn't fill the viewport */
     padding: var(--gap);
 }
 .profile .profile_inner {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 10px;
+    gap: 5px;  /* reduce from 10px if you want less space */
 }
 
 .profile .profile_inner h1 {
