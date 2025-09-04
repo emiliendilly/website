@@ -143,11 +143,26 @@
     background-color: #333;
     border: 0px solid #888;
 }
+/* Bandeau item titles - default */
 .bandeau-item-title {
-    font-size: 1.1rem;
+    font-size: 1.1rem;  /* current font */
     font-weight: 600;
     padding: 5px 0;
+    text-align: center;
 }
+
+/* Reduce font on small screens */
+@media (max-width: 600px) {
+    .bandeau-item-title {
+        font-size: 0.9rem;  /* smaller font on phones */
+    }
+
+    .bandeau-item img {
+        width: 70%;        /* smaller image if needed */
+        aspect-ratio: 1.5 / 1; /* optional tweak for better proportions */
+    }
+}
+
 
 .bandeau-section-title {
     font-weight: bold;
