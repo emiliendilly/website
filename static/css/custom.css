@@ -1,3 +1,6 @@
+/* ==========================
+   Papers Grid & Cards
+   ========================== */
 .papers-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -12,13 +15,13 @@
     border-radius: 8px;
     overflow: hidden;
     text-decoration: none;
+    border: 2px solid #fff;
     transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s, border-color 0.2s;
-    border: 2px solid #fff; /* white border */
 }
 
 .paper-card img {
     width: 100%;
-    height: 180px; /* adjust as needed */
+    height: 180px;
     object-fit: cover;
     display: block;
 }
@@ -34,69 +37,97 @@
     transform: translateY(-4px);
     box-shadow: 0 6px 18px rgba(0,0,0,0.3);
     background-color: #444;
-    border-color: #fff; /* remain white on hover */
+    border-color: #fff;
 }
 
-
+/* ==========================
+   Footer Social Icons
+   ========================== */
 .footer-social-icons {
     display: inline-flex;
-    gap: 0.5em; /* space between icons */
+    gap: 0.5em;
     vertical-align: middle;
 }
 
-.footer-social-icons .footer-social-icon {
-    width: 1em;   /* match homepage sizing */
-    height: 1em;
-    display: inline-block;
-    vertical-align: middle;
-}
-
+.footer-social-icons .footer-social-icon,
 .footer-social-icon {
-    width: 1.2em;   /* same as homepage */
+    width: 1.2em;
     height: 1.2em;
     vertical-align: middle;
-    fill: currentColor; /* so they inherit text color */
+    fill: currentColor;
 }
 
-
+/* ==========================
+   Profile Section
+   ========================== */
 .home-profile-bandeau {
     display: flex;
     flex-direction: column;
-    margin-top: 1.5rem; /* adjust as needed */
+    margin-top: 1.5rem;
 }
 
 .profile {
     margin: 0;
     padding: 0;
-    min-height: auto;       /* remove any full viewport height constraint */
+    min-height: auto;
 }
 
 .profile .profile_inner {
-    gap: 5px;               /* smaller gap */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
     margin: 0;
     padding: 0;
 }
 
-.profile .buttons {
-    margin-bottom: 0;
+.profile .profile_inner h1 {
+    font-size: 2.5rem;
 }
 
+.profile img {
+    border-radius: 50%;
+    border: 1px solid var(--tertiary);
+}
+
+.profile .buttons {
+    margin-bottom: 0;
+    flex-wrap: wrap;
+}
+
+.button {
+    background: var(--tertiary);
+    border-radius: var(--radius);
+    margin: 6px 12px 6px 0px;
+    padding: 10px;
+}
+
+.button-inner {
+    padding: 0 8px;
+}
+
+.button:hover {
+    background: var(--lightcolor);
+}
+
+/* ==========================
+   Bandeau Carousel
+   ========================== */
 .home-bandeau {
     margin: 0;
     padding: 0;
 }
 
-
 .bandeau-container {
     display: flex;
-    align-items: center; /* arrows vertically centered */
+    align-items: center;  /* arrows vertically centered */
     width: 100%;
     gap: 10px;
+    margin-bottom: 0;     /* remove big gap below */
 }
 
 .bandeau-wrapper {
     overflow: hidden;
-    flex: 1; /* take remaining space between arrows */
+    flex: 1;               /* fills space between arrows */
 }
 
 .bandeau-items {
@@ -108,7 +139,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 0 0 100%; /* each pair takes full width of wrapper */
+    flex: 0 0 100%;
 }
 
 .bandeau-items-row {
@@ -120,7 +151,7 @@
     flex: 0 0 47%;
     max-width: 49%;
     background-color: #222;
-    border: .5px solid #888;
+    border: 0.5px solid #888;
     border-radius: 6px;
     text-align: center;
     color: #fff;
@@ -129,6 +160,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: transform 0.2s, background-color 0.2s, border-color 0.2s;
 }
 
 .bandeau-item img {
@@ -137,32 +169,32 @@
     object-fit: cover;
     border-radius: 5px;
     margin: 5px auto;
+    display: block;
 }
+
 .bandeau-item:hover {
     transform: scale(1.005);
     background-color: #333;
     border: 0px solid #888;
 }
-/* Bandeau item titles - default */
+
 .bandeau-item-title {
-    font-size: 1.1rem;  /* current font */
+    font-size: 1.1rem;
     font-weight: 600;
     padding: 5px 0;
     text-align: center;
 }
 
-/* Reduce font on small screens */
 @media (max-width: 600px) {
     .bandeau-item-title {
-        font-size: 0.9rem;  /* smaller font on phones */
+        font-size: 0.9rem;
     }
 
     .bandeau-item img {
-        width: 70%;        /* smaller image if needed */
-        aspect-ratio: 1.5 / 1; /* optional tweak for better proportions */
+        width: 70%;
+        aspect-ratio: 1.5 / 1;
     }
 }
-
 
 .bandeau-section-title {
     font-weight: bold;
@@ -185,17 +217,31 @@
 .bandeau-arrow:hover {
     background-color: #444;
 }
+
+/* ==========================
+   Main Page Layout
+   ========================== */
 .main {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* ensures footer stays at bottom */
+    min-height: 100vh; /* ensures footer at bottom */
 }
 
 .main .profile {
-    flex: 1;           /* take remaining space */
+    flex: 1;
     padding-bottom: 1rem; /* small spacing above footer */
 }
-.bandeau-container {
-    margin-bottom: 0; /* removes huge gap */
+
+
+.logo-and-social {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* spacing between name/logo and icons */
 }
+
+.social-icons-container {
+    display: flex;
+    gap: 0.5rem; /* spacing between each icon */
+}
+
 
