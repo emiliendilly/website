@@ -30,8 +30,7 @@ Dans la nature, le snapping permet par exemple à certaines plantes de projeter 
 
 L’étude de ces phénomènes revêt donc une importance particulière, non seulement pour mieux comprendre les mécanismes d’instabilités dans les structures  composites, mais aussi pour ouvrir la voie à de nouvelles applications en science des matériaux, en robotique et ou encore en conception d’architectures innovantes.
 
-Parmi les nombreuses structures pouvant présenter un snapping, les gaines tressées de fibres hélicoïdales en offrent un exemple : lorsqu’elles sont comprimées et fléchies, elles subissent une instabilité de claquage brutale les déployant. Le stage consistera à réaliser des expériences permettant de caractériser cette instabilité, à mener une étude théorique descriptive du phénomène et à développer une approche de modélisation partant de la structure des fibres élémentaires pour aboutir au comportement macroscopique induit par le tressage. 
-
+Parmi les nombreuses structures susceptibles de présenter un snapping, les gaines tressées de fibres hélicoïdales en constituent un exemple : lorsqu’elles sont comprimées puis fléchies, elles subissent une instabilité de claquage brutale qui les déploie. Le stage consistera à réaliser des expériences pour caractériser cette instabilité, à mener une étude théorique descriptive du phénomène et à développer une modélisation du comportement de la gaine en flexion et en compression.
 
 
 
