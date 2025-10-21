@@ -14,12 +14,19 @@ menu:
     main:
         - name: News
           url: courses/
+          weight: 1 
         - name: Papers
           url: papers/
+          weight: 2 
         - name: Projects
           url: projects/
+          weight: 3 
+        - name: Contributions 
+          url: contributions/ 
+          weight: 4 
         - name: Talks
           url: talks/
+          weight: 5 
 
 params:
     description: "This website hosts Emilien Dilly work presentation."
@@ -60,6 +67,8 @@ params:
               url: papers/
             - name: Projects
               url: projects/
+            - name: Contributions
+              url: contributions/
             - name: Talks
               url: talks/
 
