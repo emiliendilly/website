@@ -32,6 +32,6 @@ The mechanical instabilities of clamped helical elastic rods under controlled wi
 
 ##### Citation
 
-Under review 
+Accepted in Journal of Mechanics and Physics of Solids
 
 
