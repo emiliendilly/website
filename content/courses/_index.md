@@ -13,7 +13,7 @@ Upcoming events :
 
 <div style="padding-top: 5px;"></div>
 
-- Our new paper has just been published in Journal of Mechanics and Physics of Solids see : https://emiliendilly.github.io/website/papers/paper2/ and https://doi.org/10.1016/j.jmps.2025.106402 !! :)
+- Our new paper has just been published in Journal of Mechanics and Physics of Solids see : on this [website](https://emiliendilly.github.io/website/papers/paper2/) and on [publisher's site](https://doi.org/10.1016/j.jmps.2025.106402) !! :)
 
 <div style="padding-top: 20px;"></div>
 
