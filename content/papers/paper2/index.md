@@ -30,8 +30,24 @@ The mechanical instabilities of clamped helical elastic rods under controlled wi
 
 ---
 
+
 ##### Citation
 
-Accepted in Journal of Mechanics and Physics of Solids
+Émilien Dilly, Sébastien Neukirch, Julien Derr, Williams Brett, Dražen Zanchi, Mechanical instabilities and snapping phenomena in helical rods with perversion, Journal of the Mechanics and Physics of Solids, Volume 207, 2026, 106402, ISSN 0022-5096, https://doi.org/10.1016/j.jmps.2025.106402.
+
+```BibTeX
+@article{DILLY2026106402,
+title = {Mechanical instabilities and snapping phenomena in helical rods with perversion},
+journal = {Journal of the Mechanics and Physics of Solids},
+volume = {207},
+pages = {106402},
+year = {2026},
+issn = {0022-5096},
+doi = {https://doi.org/10.1016/j.jmps.2025.106402},
+url = {https://www.sciencedirect.com/science/article/pii/S002250962500376X},
+author = {Émilien Dilly and Sébastien Neukirch and Julien Derr and Williams Brett and Dražen Zanchi}
+}
+```
+
 
 
