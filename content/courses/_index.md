@@ -13,8 +13,8 @@ Upcoming events :
 
 <div style="padding-top: 5px;"></div>
 
+- Our new paper has just been published in Journal of Mechanics and Physics of Solids see : https://emiliendilly.github.io/website/papers/paper2/ and https://doi.org/10.1016/j.jmps.2025.106402 !! :)
 
-- 2nd Sept. 2025 : Back at the Lab !!
 <div style="padding-top: 20px;"></div>
 
 ---
@@ -23,6 +23,7 @@ Upcoming events :
 Past events :
 <div style="padding-top: 5px;"></div>
 
+- 2nd Sept. 2025 : Back at the Lab !!
 
 - [Talk at the ESMC in Lyon Conference on the chirlity inversion of helices upon unwinding. 08/07/25](https://esmc2025.sciencesconf.org)
 
