@@ -13,7 +13,7 @@ Upcoming events :
 
 <div style="padding-top: 5px;"></div>
 
-- Un article de presse concernant nos travaux sur la croissance des vrillesa ét publié dans le suppément Science du [Monde](https://www.lemonde.fr/sciences/article/2025/12/05/avec-ses-vrilles-le-cornichon-ne-manque-pas-de-ressort-pour-grandir_6656070_1650684.html).
+- Un article de presse concernant nos travaux sur la croissance des vrillesa ét publié dans le suppément Science du [Monde](https://www.lemonde.fr/sciences/article/2025/12/05/avec-ses-vrilles-le-cornichon-ne-manque-pas-de-ressort-pour-grandir_6656070_1650684.html)..
 
 
 - Our new paper has just been published in Journal of Mechanics and Physics of Solids see : on this [website](https://emiliendilly.github.io/website/papers/paper2/) and on [publisher's site](https://doi.org/10.1016/j.jmps.2025.106402) !! :)
