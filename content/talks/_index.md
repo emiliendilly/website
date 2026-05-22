@@ -39,3 +39,13 @@ description: "Books by Professor Dr von Igelfeld's."
 - Marmitte du PIAF, INRAE Clermond Ferrant Seminar. Cucumber tendrilVrithing under external load : where Kirchhoff meets Lockhart. **Dilly**, E., J. Derr, D. Zanchi 
 - Functionnality through non linearity Conference, King's College London. Programming the nonlinear bending response of architected beams. **Dilly**, Siéfert.
 - GDR MePhy, Paris. Programming the nonlinear bending response of architected beams. **Dilly**, Siéfert.
+
+
+2026 :
+
+- Gdr Mephy General meeting Carry le Rouet : 'Promgramming the non linear response of architected beams' **Dilly**, Siéfert.
+- ESPCI/PMMH lab seminar : 'Promgramming the non linear response of architected beams' **Dilly**, Siéfert.
+-  Physics of Fluids & Soft Matter group of the University of Manchester Seminar : Cucumber tendrilVrithing under external load **Dilly**, E., J. Derr, D. Zanchi 
+- Université Paris Cité/ DOMM team meeting Seminar : 'Promgramming the non linear response of architected beams' **Dilly**, Siéfert.
+
+
