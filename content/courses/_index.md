@@ -13,6 +13,8 @@ Events :
 
 <div style="padding-top: 5px;"></div>
 
+- **Nouvelle publication dans PNAS** – Notre article *“Internal stress controls tendril writhing dynamics in climbing plants”*, avec Julien Derr et Dražen Zanchi, a été publié dans les *Proceedings of the National Academy of Sciences (PNAS)*. [Lire l’article](https://doi.org/10.1073/pnas.2537010123).
+
 - **Prix de thèse SFP** – Communiqué sur le site de [CNRS Physique](https://www.inp.cnrs.fr/fr/cnrsinfo/cinq-scientifiques-de-laboratoires-de-cnrs-physique-recompenses-par-la-sfp), déjà présentés dans un article du [Journal du CNRS](https://www.inp.cnrs.fr/fr/cnrsinfo/la-perversion-de-vrille-ou-comment-sattacher-quand-est-une-belle-plante), intitulé *« La perversion de vrille, ou comment s'attacher quand on est une belle plante »*.
 
 - **Invited Speaker aux JMC 2026** – Présentation invitée au mini-colloque *“Mechanics of slender structures, metamaterials, and their multiphysics couplings”* lors des [Journées de la Matière Condensée 2026](https://jmc2026.sciencesconf.org/). [Voir le programme du mini-colloque](https://jmc2026.sciencesconf.org/data/pages/MMM02.pdf).
