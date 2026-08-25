@@ -9,14 +9,11 @@ description: "Sup ?"
 <div style="padding-top: 10px;"></div>
 
 
-Upcoming events :
+Events :
 
 <div style="padding-top: 5px;"></div>
 
-- Un article de presse concernant nos travaux sur la croissance des vrillesa ét publié dans le suppément Science du [Monde](https://www.lemonde.fr/sciences/article/2025/12/05/avec-ses-vrilles-le-cornichon-ne-manque-pas-de-ressort-pour-grandir_6656070_1650684.html).
-
-
-- Our new paper has just been published in Journal of Mechanics and Physics of Solids see : on this [website](https://emiliendilly.github.io/website/papers/paper2/) and on [publisher's site](https://doi.org/10.1016/j.jmps.2025.106402) !! :)
+- **Prix de thèse SFP** – Communiqué sur le site de [CNRS Physique](https://www.inp.cnrs.fr/fr/cnrsinfo/cinq-scientifiques-de-laboratoires-de-cnrs-physique-recompenses-par-la-sfp), déjà présentés dans un article du [Journal du CNRS](https://www.inp.cnrs.fr/fr/cnrsinfo/la-perversion-de-vrille-ou-comment-sattacher-quand-est-une-belle-plante), intitulé *« La perversion de vrille, ou comment s'attacher quand on est une belle plante »*.
 
 <div style="padding-top: 20px;"></div>
 
@@ -25,6 +22,11 @@ Upcoming events :
 
 Past events :
 <div style="padding-top: 5px;"></div>
+
+- Un article de presse concernant nos travaux sur la croissance des vrillesa ét publié dans le suppément Science du [Monde](https://www.lemonde.fr/sciences/article/2025/12/05/avec-ses-vrilles-le-cornichon-ne-manque-pas-de-ressort-pour-grandir_6656070_1650684.html).
+
+
+- Our new paper has just been published in Journal of Mechanics and Physics of Solids see : on this [website](https://emiliendilly.github.io/website/papers/paper2/) and on [publisher's site](https://doi.org/10.1016/j.jmps.2025.106402) !! :)
 
 - 2nd Sept. 2025 : Back at the Lab !!
 
