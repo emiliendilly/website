@@ -42,7 +42,7 @@ Helices with multiple perversions can be generated. In the case of two perversio
      target="_blank"
      rel="noopener noreferrer">
     <img
-      src="rnl_poster_2023-27.png"
+      src="rnl_poster_2023-27.webp"
       alt="RNL 2023 research poster"
       style="
         width: 100%;
