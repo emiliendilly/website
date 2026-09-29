@@ -37,21 +37,23 @@ Helices with multiple perversions can be generated. In the case of two perversio
   Click on the poster to open the full PDF.
 </p>
 
-<a href="rnl_poster_2023-27.pdf"
-   target="_blank"
-   rel="noopener noreferrer"
-   style="display: block; width: 100%; cursor: pointer;">
-  <iframe
-    src="rnl_poster_2023-27.pdf#toolbar=0&navpanes=0&scrollbar=0"
-    style="
-      width: 100%;
-      height: 1200px;
-      border: none;
-      pointer-events: none;
-      display: block;
-    ">
-  </iframe>
-</a>
+<p style="text-align: center;">
+  <a href="rnl_poster_2023-27.pdf"
+     target="_blank"
+     rel="noopener noreferrer">
+    <img
+      src="rnl_poster_2023-27.png"
+      alt="RNL 2023 research poster"
+      style="
+        width: 100%;
+        max-width: 1400px;
+        height: auto;
+        cursor: pointer;
+        display: block;
+        margin: 0 auto;
+      ">
+  </a>
+</p>
 
 <p style="text-align: center; margin-top: 20px;">
   <a href="rnl_poster_2023-27.pdf"
