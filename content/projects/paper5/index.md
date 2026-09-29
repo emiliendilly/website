@@ -1,13 +1,13 @@
 ---
-title: "Proposition de stage : Instabilité de claquage dans des gaines tressées" 
-date: 2025-09-05
-tags: ["instabilité","non linéaire","claquage","bifurcation","mécanique","architecturé", "tiges", "flexion"]
-author: ["Dilly Émilien, Siéfert Emmanuel "]
-description: "Une gaine constituée de fibres tressées de manière hélicoïdale peut être comprimée longitudinalement. Lors de cette compression, elle reste droite tout en voyant son diamètre augmenter. Si la tige ainsi obtenue est fléchie, il existe une rotation critique de ses extrémités au-delà de laquelle elle claque soudainement, provoquant un déploiement brusque accompagné d’une diminution de son rayon. Le stage consistera à réaliser des expériences permettant de caractériser cette instabilité, à mener une étude théorique descriptive du phénomène et à développer une approche de modélisation partant de la structure des fibres élémentaires pour aboutir au comportement macroscopique induit par le tressage.  " 
-summary: "Une gaine constituée de fibres tressées de manière hélicoïdale peut être comprimée longitudinalement. Lors de cette compression, elle reste droite tout en voyant son diamètre augmenter. Si la tige ainsi obtenue est fléchie, il existe une rotation critique de ses extrémités au-delà de laquelle elle claque soudainement, provoquant un déploiement brusque accompagné d’une diminution de son rayon. Le stage consistera à réaliser des expériences permettant de caractériser cette instabilité, à mener une étude théorique descriptive du phénomène et à développer une approche de modélisation partant de la structure des fibres élémentaires pour aboutir au comportement macroscopique induit par le tressage.  " 
+title: "Projet expérimental : Frustration géométrique et flambement d’un anneau élastique"
+date: 2026-09-29
+tags: ["instabilité","flambement","bifurcation","mécanique","frustration géométrique","tiges","croissance","élasticité"]
+author: ["Dilly Émilien, Jiayu Wang"]
+description: "La croissance ou l’incompatibilité géométrique peuvent générer des contraintes internes et provoquer spontanément des déformations tridimensionnelles. Le projet propose d’étudier expérimentalement une réalisation minimale de ce phénomène : le flambement hors-plan d’un anneau élastique naturellement courbé lorsque sa longueur et sa courbure naturelle deviennent incompatibles."
+summary: "La croissance ou l’incompatibilité géométrique peuvent générer des contraintes internes et provoquer spontanément des déformations tridimensionnelles. Le projet propose d’étudier expérimentalement une réalisation minimale de ce phénomène : le flambement hors-plan d’un anneau élastique naturellement courbé lorsque sa longueur et sa courbure naturelle deviennent incompatibles."
 cover:
-    image: "paper1.webp"
-    alt: "Subcritical pendulum"
+    image: "frustration_géométrique_plaques_et_tiges.png"
+    alt: "Frustration géométrique dans les plaques et les anneaux élastiques"
     relative: true
 editPost:
 
@@ -15,43 +15,69 @@ editPost:
 
 ---
 
-##### Claquage de la gaine tréssée sous flexion-compression 
+##### Frustration géométrique : des plaques aux tiges
 
 <div style="display: flex; justify-content: center;">
-  <img src="paper1_1.webp" alt="Paper 2" width="400">
+  <img src="frustration_géométrique_plaques_et_tiges.png"
+       alt="Frustration géométrique dans l'algue Acetabularia"
+       width="700">
 </div>
 
 ---
 
-Les instabilités de claquage, ou snapping instabilities, désignent des transitions mécaniques soudaines au sein de structures élastiques soumises à des sollicitations externes. Elles se caractérisent par un basculement rapide d’un état d’équilibre stable vers un autre, souvent accompagné d’un mouvement brusque et d’une libération d’énergie accumulée. Bien que ce comportement puisse apparaître comme une fragilité ou une limitation des matériaux, il constitue en réalité un mécanisme naturel d’une grande efficacité, exploité par de nombreux systèmes biologiques et techniques.
+La croissance peut être à l’origine de formes complexes sans qu’aucune force
+extérieure ne soit appliquée. Lorsqu’un matériau croît d’une manière incompatible
+avec les contraintes géométriques qui lui sont imposées, il ne peut plus réaliser
+partout sa géométrie naturelle sans se déformer. Cette **frustration géométrique**
+engendre alors des contraintes internes qui peuvent être relaxées par une
+déformation hors du plan.
 
-Dans la nature, le snapping permet par exemple à certaines plantes de projeter leurs graines - voir gif en bas de la page-. Inspiré par ces modèles biologiques, le monde de l’ingénierie tire parti de ces instabilités pour concevoir des systèmes performants : actionneurs rapides, dispositifs de déploiement, robots souples capables de mouvements agiles, ou encore solutions de stockage et de restitution d’énergie mécanique.
+Ce mécanisme intervient notamment dans la morphogenèse des tissus minces.
+Une croissance différentielle dans une plaque peut ainsi produire spontanément
+des formes tridimensionnelles : cônes, selles ou surfaces fortement ondulées.
+Les travaux de Dervaux et Ben Amar sur les tissus élastiques en croissance
+illustrent ce mécanisme de façon particulièrement simple : selon la direction
+privilégiée de la croissance, un disque initialement plat peut perdre sa symétrie
+et adopter notamment une forme de **selle**.
+
+Le projet propose d’étudier expérimentalement une réalisation
+unidimensionnelle et minimale de cette même idée : **un anneau élastique
+naturellement courbé**.
+
+Une tige possède localement une courbure qu’elle préfère adopter lorsqu’elle
+est libre. Mais, une fois refermée sur elle-même, sa longueur et sa courbure
+naturelle ne sont pas nécessairement compatibles avec la condition de fermeture.
+L’anneau peut alors rester circulaire tout en stockant de l’énergie de flexion.
+Lorsque cette incompatibilité devient suffisamment grande, l’état circulaire
+plan perd sa stabilité et la tige flambe spontanément dans la troisième
+dimension.
+
+Le projet consistera à réaliser des anneaux à partir de tiges minces
+naturellement courbées et à faire varier progressivement cette incompatibilité
+géométrique. Les étudiants devront mettre au point le dispositif expérimental,
+caractériser les propriétés géométriques et mécaniques des tiges, puis mesurer
+le seuil d’apparition du flambement ainsi que l’amplitude de la déformation
+hors-plan.
+
+L’objectif sera notamment de construire un **diagramme de bifurcation**
+expérimental et de comparer le seuil observé aux prédictions d’un modèle de
+tige de Kirchhoff. Pour une tige à rigidité de flexion isotrope, le premier mode
+non plan attendu est un mode à deux lobes.
+
+Ce système constitue ainsi un modèle expérimental particulièrement simple
+pour étudier des mécanismes de frustration géométrique que l’on retrouve à des
+échelles et dans des systèmes très différents : tissus biologiques en croissance,
+plaques élastiques, coques minces et structures filiformes.
 
 
-L’étude de ces phénomènes revêt donc une importance particulière, non seulement pour mieux comprendre les mécanismes d’instabilités dans les structures  composites, mais aussi pour ouvrir la voie à de nouvelles applications en science des matériaux, en robotique et ou encore en conception d’architectures innovantes.
-
-Parmi les nombreuses structures susceptibles de présenter un snapping, les gaines tressées de fibres hélicoïdales en constituent un exemple : lorsqu’elles sont comprimées puis fléchies, elles subissent une instabilité de claquage brutale qui les déploie - voir fig. et gif en bas de la page-. Le stage consistera à réaliser des expériences pour caractériser cette instabilité, à mener une étude théorique descriptive du phénomène et à développer une modélisation du comportement de la gaine en flexion et en compression.
+##### Flambement de l'anneau
 
 
+<div style="display: flex; justify-content: center;">
+  <img src="ring_relaxation_and_intrinsic_curvature_ribbon.gif" alt="Experiments GIF" width="400">
+</div>
 
 
 ---
 
-
-##### Brutal seed dispersal in *Impatiens capensis*
-
-
-<div style="display: flex; justify-content: center;">
-  <img src="gifs/seed-dispersal-smithsonian-explosion-plants.gif" alt="Experiments GIF" width="400">
-</div>
-
-##### Claquage de la gaine tréssée sous flexion-compression
-
-
-<div style="display: flex; justify-content: center;">
-  <img src="gifs/cropped_video.gif" alt="Experiments GIF" width="400">
-</div>
-
-
 ---
-
