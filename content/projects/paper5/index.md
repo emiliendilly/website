@@ -15,11 +15,11 @@ editPost:
 
 ---
 
-##### Frustration géométrique : des plaques aux tiges
+##### Frustration géométrique et morphogénèse
 
 <div style="display: flex; justify-content: center;">
   <img src="frustration_géométrique_plaques_et_tiges.png"
-       alt="Frustration géométrique dans l'algue Acetabularia"
+       alt="Frustration géométrique dans l'algue Acetabularia from K.A. Serikawa and D.F. Mandoli, Planta 207 96 (1998)."
        width="700">
 </div>
 
@@ -61,8 +61,7 @@ hors-plan.
 
 L’objectif sera notamment de construire un **diagramme de bifurcation**
 expérimental et de comparer le seuil observé aux prédictions d’un modèle de
-tige de Kirchhoff. Pour une tige à rigidité de flexion isotrope, le premier mode
-non plan attendu est un mode à deux lobes.
+tige de Kirchhoff.
 
 Ce système constitue ainsi un modèle expérimental particulièrement simple
 pour étudier des mécanismes de frustration géométrique que l’on retrouve à des
